@@ -63,26 +63,6 @@ npm run preview    # preview the production build
 npm test           # re-checks every calculation against hand-counted values
 ```
 
-## Push to GitHub
-
-Create an empty repository named `Executive-Analytics-Capstone` on GitHub (no README, no .gitignore), then:
-
-```bash
-git init
-git add .
-git commit -m "Executive Analytics Capstone"
-git branch -M main
-git remote add origin https://github.com/<your-username>/Executive-Analytics-Capstone.git
-git push -u origin main
-```
-
-## Deploy to Vercel
-
-1. Sign in at <https://vercel.com> with GitHub and choose **Add New → Project**.
-2. Import the `Executive-Analytics-Capstone` repository.
-3. Vercel detects Vite automatically. Keep the defaults: build command `npm run build`, output directory `dist`.
-4. Click **Deploy**. Every later push to `main` redeploys automatically.
-
 ## Project structure
 
 ```
