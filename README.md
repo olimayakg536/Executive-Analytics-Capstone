@@ -74,3 +74,7 @@ src/pdf.js          PDF report generator
 src/styles.css      styles
 scripts/verify.mjs  calculation checks (npm test)
 ```
+
+## 🌐 Live Demo
+
+**[Click here to visit the live website](https://executive-analytics-capstone.vercel.app/)**
